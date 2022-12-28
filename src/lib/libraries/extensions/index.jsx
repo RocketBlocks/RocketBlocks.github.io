@@ -35,6 +35,8 @@ import wedo2ConnectionIconURL from './wedo2/wedo-illustration.svg';
 import wedo2ConnectionSmallIconURL from './wedo2/wedo-small.svg';
 import wedo2ConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 
+import additionsIconURL from './additions/additions.png';
+
 import boostIconURL from './boost/boost.png';
 import boostInsetIconURL from './boost/boost-small.svg';
 import boostConnectionIconURL from './boost/boost-illustration.svg';
@@ -63,6 +65,27 @@ import saveIcon from './save/save.svg'
 import uniteIcon from './unite/Unite.png'
 
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="RocketBlocks Additions"
+                description="The RocketBlocks experience"
+                id="gui.extension.rocket_additions.name"
+            />
+        ),
+        extensionId: 'rocket_additions',
+        name: 'Additions',
+        iconURL: additionsIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="RocketBlocks Additions"
+                description="The RocketBlocks experience"
+                id="gui.extension.rocket_additions.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: false
+    },
     {
         name: (
             <FormattedMessage
