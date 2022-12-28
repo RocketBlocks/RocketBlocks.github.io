@@ -73,7 +73,7 @@ export default [
                 id="gui.extension.rocket_additions.name"
             />
         ),
-        extensionId: 'rocket_additions',
+        extensionId: 'additions',
         name: 'Additions',
         iconURL: additionsIconURL,
         description: (
