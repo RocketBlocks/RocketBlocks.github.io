@@ -105,6 +105,15 @@ const Footer = () => (
             </div>
             <div className={styles.footerColumns}>
                 <div className={styles.footerSection}>
+                    <a href="https://upload.rocket.jdev.eu.org">
+                        <FormattedMessage
+                            defaultMessage="Upload"
+                            description="Upload your projects!"
+                            id="tw.footer.upload"
+                        />
+                    </a>
+                </div>
+                <div className={styles.footerSection}>
                     <a href="credits.html">
                         <FormattedMessage
                             defaultMessage="Credits"
