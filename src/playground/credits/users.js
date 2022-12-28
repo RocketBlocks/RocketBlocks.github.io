@@ -14,6 +14,22 @@ const fromHardcoded = ({userId, username, name}) => ({
     text: name || username
 });
 
+const fromHardcodedNonScratch = ({name, link, icon, role}) => ({
+    image: icon,
+    href: link,
+    name: name,
+    role: role,
+    text: name || role
+})
+
+const rocketBlocksDevelopers = [
+    {
+        image: 'https://avatars.githubusercontent.com/u/92550746?s=96&v=4',
+        link: 'https://github.com/jdev082',
+        name: 'jdev082',
+    }
+].map(fromHardcodedNonScratch);
+
 const addonDevelopers = [
     {
         userId: '34018398',
@@ -100,5 +116,6 @@ const addonDevelopers = [
 ].map(fromHardcoded);
 
 export default {
-    addonDevelopers: shuffle(addonDevelopers)
+    addonDevelopers: shuffle(addonDevelopers),
+    rocketBlocksDevelopers: shuffle(rocketBlocksDevelopers)
 };

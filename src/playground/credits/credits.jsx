@@ -29,10 +29,37 @@ const User = ({image, text, href}) => (
         </div>
     </a>
 );
+
+const UserNonScratch = ({image, text, href, role}) => (
+    <a
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+        className={styles.user}
+    >
+        <img
+            className={styles.userImage}
+            src={image}
+            width="60"
+            height="60"
+        />
+        <div className={styles.userInfo}>
+            {text} {role}
+        </div>
+    </a>
+);
+
 User.propTypes = {
     image: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     href: PropTypes.string
+};
+
+UserNonScratch.propTypes = {
+    image: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    href: PropTypes.string,
+    role: PropTypes.role
 };
 
 const UserList = ({users}) => (
@@ -45,7 +72,23 @@ const UserList = ({users}) => (
         ))}
     </div>
 );
+
+const UserListNonScratch = ({users}) => (
+    <div className={styles.users}>
+        {users.map((data, index) => (
+            <User
+                key={index}
+                {...data}
+            />
+        ))}
+    </div>
+);
+
 UserList.propTypes = {
+    users: PropTypes.arrayOf(PropTypes.object)
+};
+
+UserListNonScratch.propTypes = {
     users: PropTypes.arrayOf(PropTypes.object)
 };
 
@@ -53,18 +96,18 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                <ShredMod></ShredMod> Credits
+                Turbowarp/RocketBlocks Credits
             </h1>
         </header>
         <section>
             <p>
-                The ShredMod project is made possible by the work of many volunteers.
+                The TurboWarp, ShredMod, and RocketBlocks projects are made possible by the work of many volunteers.
             </p>
         </section>
         <section>
             <h2>Scratch</h2>
             <p>
-                ShredMod is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
+                TurboWarp, ShredMod, and RocketBlocks is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
             </p>
             <p>
                 <a href="https://scratch.mit.edu/donate">
@@ -73,16 +116,15 @@ const Credits = () => (
             </p>
         </section>
         <section>
-            <p>ShredMod and its modifications were created by The_Mad_Punter.</p>
-        </section>
-        <section>
             <h2>Addons</h2>
             <UserList users={UserData.addonDevelopers} />
+            <h2>RocketBlocks Developers</h2>
+            <UserListNonScratch users={UserData.rocketBlocksDevelopers} />
         </section>
         <section>
             <h2>Translators</h2>
             <p>
-                More than 100 people have helped translate ShredMod and its addons into many languages
+                More than 100 people have helped translate TurboWarp and its addons into many languages. This is important because <b>RocketBlocks is a fork of TurboWarp.</b>
                 &mdash; far more than we could hope to list here.
             </p>
         </section>
