@@ -49,7 +49,7 @@ import styles from './interface.css';
 
 if (window.parent !== window) {
     // eslint-disable-next-line no-alert
-    alert('This page is embedding ShredMod in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
+    alert('This page is embedding RocketBlocks in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
     throw new Error('Invalid embed');
 }
 
@@ -98,8 +98,8 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="ShredMod is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that ShredMod is not connected to Scratch"
+                    defaultMessage="RocketBlocks is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    description="Disclaimer that RocketBlocks is not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
             </div>
@@ -112,22 +112,11 @@ const Footer = () => (
                             id="tw.footer.credits"
                         />
                     </a>
-                    <a href="https://github.com/sponsors/GarboMuffin">
-                        <FormattedMessage
-                            defaultMessage="Donate"
-                            description="Donation link in footer"
-                            id="tw.footer.donate"
-                        />
-                    </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://desktop.turbowarp.org/">
+                    <a href="https://jdev.eu.org/warp.htm">
                         {/* Do not translate */}
-                        {'ShredMod Desktop'}
-                    </a>
-                    <a href="https://packager.turbowarp.org/">
-                        {/* Do not translate */}
-                        {'ShredMod Packager'}
+                        {'RocketBlocks Packager'}
                     </a>
                     <a href="https://docs.turbowarp.org/embedding">
                         <FormattedMessage
@@ -143,23 +132,16 @@ const Footer = () => (
                             id="tw.footer.parameters"
                         />
                     </a>
-                    <a href="https://docs.turbowarp.org/translate">
-                        <FormattedMessage
-                            defaultMessage="Help Translate ShredMod"
-                            description="Menu bar item for translating ShredMod link"
-                            id="tw.footer.translate"
-                        />
-                    </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://scratch.mit.edu/users/GarboMuffin/#comments">
+                    <a href="https://github.com/RocketBlocks/gui/issues">
                         <FormattedMessage
                             defaultMessage="Feedback & Bugs"
                             description="Link to feedback/bugs page"
                             id="tw.feedback"
                         />
                     </a>
-                    <a href="https://github.com/ShredMod/">
+                    <a href="https://github.com/RocketBlocks/">
                         <FormattedMessage
                             defaultMessage="Source Code"
                             description="Link to source code"
@@ -191,9 +173,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle (title, isDefault) {
         if (isDefault || !title) {
-            document.title = `ShredMod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `RocketBlocks - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - ShredMod`;
+            document.title = `${title} - RocketBlocks`;
         }
     }
     render () {
@@ -331,8 +313,8 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="ShredMod is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
-                                        description="Description of ShredMod"
+                                        defaultMessage="RocketBlocks is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
+                                        description="Description of RocketBlocks"
                                         id="tw.home.description"
                                     />
                                 </p>

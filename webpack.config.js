@@ -158,28 +158,28 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'ShredMod - Mod with Shred',
+                title: 'RocketBlocks - Mod with Shred',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'ShredMod - Mod With Shred',
+                title: 'RocketBlocks - Mod With Shred',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'ShredMod - Mod With Shred',
+                title: 'RocketBlocks - Mod With Shred',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - ShredMod',
+                title: 'Embedded Project - RocketBlocks',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -187,14 +187,14 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - ShredMod',
+                title: 'Addon Settings - RocketBlocks',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'],
                 template: 'src/playground/simple.ejs',
                 filename: 'credits.html',
-                title: 'ShredMod Credits',
+                title: 'RocketBlocks Credits',
                 noSplash: true,
                 ...htmlWebpackPluginCommon
             }),
