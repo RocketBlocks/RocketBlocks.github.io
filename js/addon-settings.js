@@ -149,7 +149,7 @@ var GUI =
 /******/
 /******/
 /******/ 	// add entry module to deferred list
-/******/ 	deferredModules.push(["./src/playground/addon-settings.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","addon-settings~addons~editor~fullscreen~player"]);
+/******/ 	deferredModules.push(["./src/playground/addon-settings.jsx","vendors~addon-settings~credits~editor~embed~fullscreen~player","addon-settings~addons"]);
 /******/ 	// run deferred modules when ready
 /******/ 	return checkDeferredModules();
 /******/ })
@@ -979,53 +979,6 @@ __webpack_require__.r(__webpack_exports__);
   "tr": () => __webpack_require__(/*! ../addons-l10n-settings/tr.json */ "./src/addons/addons-l10n-settings/tr.json"),
   "zh-tw": () => __webpack_require__(/*! ../addons-l10n-settings/zh-tw.json */ "./src/addons/addons-l10n-settings/zh-tw.json")
 });
-
-/***/ }),
-
-/***/ "./src/addons/polyfill.js":
-/*!********************************!*\
-  !*** ./src/addons/polyfill.js ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* eslint-disable no-extend-native */
-
-if (!Blob.prototype.text) {
-  Blob.prototype.text = function () {
-    return new Promise((resolve, reject) => {
-      const fr = new FileReader();
-      fr.onload = () => resolve(fr.result);
-      fr.onerror = () => reject(new Error('Cannot read blob as text'));
-      fr.readAsText(this);
-    });
-  };
-}
-if (!Array.prototype.flat) {
-  Array.prototype.flat = function () {
-    let depth = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
-    const result = [];
-    for (const i of this) {
-      if (Array.isArray(i)) {
-        if (depth < 1) {
-          result.push(i);
-        } else {
-          for (const j of i.flat(depth - 1)) {
-            result.push(j);
-          }
-        }
-      } else {
-        result.push(i);
-      }
-    }
-    return result;
-  };
-}
-if (typeof queueMicrotask !== 'function') {
-  window.queueMicrotask = callback => {
-    Promise.resolve().then(callback);
-  };
-}
 
 /***/ }),
 
