@@ -394,15 +394,52 @@ const User = _ref => {
     className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.userInfo
   }, text));
 };
+const UserNonScratch = _ref2 => {
+  let {
+    image,
+    text,
+    href,
+    role
+  } = _ref2;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: href,
+    target: "_blank",
+    rel: "noreferrer",
+    className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.user
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.userImage,
+    src: image,
+    width: "60",
+    height: "60"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.userInfo
+  }, text, " ", role));
+};
 User.propTypes = {
   image: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
   text: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
   href: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string
 };
-const UserList = _ref2 => {
+UserNonScratch.propTypes = {
+  image: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
+  text: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired,
+  href: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+  role: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.role
+};
+const UserList = _ref3 => {
   let {
     users
-  } = _ref2;
+  } = _ref3;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.users
+  }, users.map((data, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(User, _extends({
+    key: index
+  }, data))));
+};
+const UserListNonScratch = _ref4 => {
+  let {
+    users
+  } = _ref4;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.users
   }, users.map((data, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(User, _extends({
@@ -412,19 +449,24 @@ const UserList = _ref2 => {
 UserList.propTypes = {
   users: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object)
 };
+UserListNonScratch.propTypes = {
+  users: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.object)
+};
 const Credits = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
   className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.main
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
   className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.headerContainer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
   className: _credits_css__WEBPACK_IMPORTED_MODULE_4___default.a.headerText
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ShredMod, null), " Credits")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The ShredMod project is made possible by the work of many volunteers.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Scratch"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "ShredMod is based on the work of the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+}, "Turbowarp/RocketBlocks Credits")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "The TurboWarp, ShredMod, and RocketBlocks projects are made possible by the work of many volunteers.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Scratch"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "TurboWarp, ShredMod, and RocketBlocks is based on the work of the ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   href: "https://scratch.mit.edu/credits"
 }, "Scratch contributors"), " but is not endorsed by Scratch in any way."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   href: "https://scratch.mit.edu/donate"
-}, "Donate to support Scratch."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "ShredMod and its modifications were created by The_Mad_Punter.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Addons"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(UserList, {
+}, "Donate to support Scratch."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Addons"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(UserList, {
   users: _users__WEBPACK_IMPORTED_MODULE_6__["default"].addonDevelopers
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Translators"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "More than 100 people have helped translate ShredMod and its addons into many languages \u2014 far more than we could hope to list here.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Individual contributors are listed in no particular order. The order is randomized each visit."))));
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "RocketBlocks Developers"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(UserListNonScratch, {
+  users: _users__WEBPACK_IMPORTED_MODULE_6__["default"].rocketBlocksDevelopers
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Translators"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "More than 100 people have helped translate TurboWarp and its addons into many languages. This is important because ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, "RocketBlocks is a fork of TurboWarp."), "\u2014 far more than we could hope to list here.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", null, "Individual contributors are listed in no particular order. The order is randomized each visit."))));
 document.body.setAttribute('theme', Object(_lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_5__["getInitialDarkMode"])() ? 'dark' : 'light');
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Credits, null), _app_target__WEBPACK_IMPORTED_MODULE_3__["default"]);
 
@@ -460,6 +502,26 @@ const fromHardcoded = _ref => {
     text: name || username
   };
 };
+const fromHardcodedNonScratch = _ref2 => {
+  let {
+    name,
+    link,
+    icon,
+    role
+  } = _ref2;
+  return {
+    image: icon,
+    href: link,
+    name: name,
+    role: role,
+    text: name || role
+  };
+};
+const rocketBlocksDevelopers = [{
+  image: 'https://avatars.githubusercontent.com/u/92550746?s=96&v=4',
+  link: 'https://github.com/jdev082',
+  name: 'jdev082'
+}].map(fromHardcodedNonScratch);
 const addonDevelopers = [{
   userId: '34018398',
   username: 'Jeffalo'
@@ -525,7 +587,8 @@ const addonDevelopers = [{
 // TODO: retronbv is banned?
 ].map(fromHardcoded);
 /* harmony default export */ __webpack_exports__["default"] = ({
-  addonDevelopers: shuffle(addonDevelopers)
+  addonDevelopers: shuffle(addonDevelopers),
+  rocketBlocksDevelopers: shuffle(rocketBlocksDevelopers)
 });
 
 /***/ })
