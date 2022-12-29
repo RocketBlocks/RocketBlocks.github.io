@@ -1,6 +1,9 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+import customImage from './custom/custom.png';
+import customInsetImage from './custom/custom-small.svg';
+
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -85,6 +88,25 @@ export default [
         ),
         featured: true,
         internetConnectionRequired: false
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Choose an extension"
+                description="Name for the custom extension selector"
+                id="gui.extension.custom.name"
+            />
+        ),
+        iconURL: customImage,
+        insetIconURL: customInsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="For developers"
+                description="Description for the custom extension selector"
+                id="gui.extension.custom.description"
+            />
+        ),
+        featured: true
     },
     {
         name: (
