@@ -38044,7 +38044,7 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 
 
 const searchParams = new URLSearchParams(location.search);
-const cloudHost = searchParams.get('cloud_host') || 'wss://clouddata.turbowarp.org';
+const cloudHost = searchParams.get('cloud_host') || 'wss://clouddata.rocket.jdev.eu.org';
 const RenderGUI = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_gui_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
   cloudHost: cloudHost,
   canSave: false,
