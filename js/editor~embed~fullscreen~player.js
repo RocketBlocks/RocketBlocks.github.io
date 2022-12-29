@@ -31657,6 +31657,28 @@ module.exports = __webpack_require__.p + "static/assets/64213236c2ea6563c91f8e7a
 
 /***/ }),
 
+/***/ "./src/lib/libraries/extensions/custom/custom-small.svg":
+/*!**************************************************************!*\
+  !*** ./src/lib/libraries/extensions/custom/custom-small.svg ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/77a7bc97dc9994b9dffc90548efaa7d0.svg";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/custom/custom.png":
+/*!********************************************************!*\
+  !*** ./src/lib/libraries/extensions/custom/custom.png ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/ba6251cf89b7742cd2ce08d4bdb78dd3.png";
+
+/***/ }),
+
 /***/ "./src/lib/libraries/extensions/custom/custom.svg":
 /*!********************************************************!*\
   !*** ./src/lib/libraries/extensions/custom/custom.svg ***!
@@ -31757,82 +31779,88 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-intl */ "./node_modules/react-intl/lib/index.es.js");
-/* harmony import */ var _music_music_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./music/music.png */ "./src/lib/libraries/extensions/music/music.png");
-/* harmony import */ var _music_music_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_music_music_png__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _music_music_small_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./music/music-small.svg */ "./src/lib/libraries/extensions/music/music-small.svg");
-/* harmony import */ var _music_music_small_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_music_music_small_svg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _pen_pen_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pen/pen.png */ "./src/lib/libraries/extensions/pen/pen.png");
-/* harmony import */ var _pen_pen_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pen_pen_png__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pen/pen-small.svg */ "./src/lib/libraries/extensions/pen/pen-small.svg");
-/* harmony import */ var _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./videoSensing/video-sensing.png */ "./src/lib/libraries/extensions/videoSensing/video-sensing.png");
-/* harmony import */ var _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./videoSensing/video-sensing-small.svg */ "./src/lib/libraries/extensions/videoSensing/video-sensing-small.svg");
-/* harmony import */ var _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./text2speech/text2speech.png */ "./src/lib/libraries/extensions/text2speech/text2speech.png");
-/* harmony import */ var _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./text2speech/text2speech-small.svg */ "./src/lib/libraries/extensions/text2speech/text2speech-small.svg");
-/* harmony import */ var _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _translate_translate_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./translate/translate.png */ "./src/lib/libraries/extensions/translate/translate.png");
-/* harmony import */ var _translate_translate_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_translate_translate_png__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _translate_translate_small_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./translate/translate-small.png */ "./src/lib/libraries/extensions/translate/translate-small.png");
-/* harmony import */ var _translate_translate_small_png__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_translate_translate_small_png__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./makeymakey/makeymakey.png */ "./src/lib/libraries/extensions/makeymakey/makeymakey.png");
-/* harmony import */ var _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./makeymakey/makeymakey-small.svg */ "./src/lib/libraries/extensions/makeymakey/makeymakey-small.svg");
-/* harmony import */ var _makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./microbit/microbit.png */ "./src/lib/libraries/extensions/microbit/microbit.png");
-/* harmony import */ var _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_microbit_microbit_png__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./microbit/microbit-small.svg */ "./src/lib/libraries/extensions/microbit/microbit-small.svg");
-/* harmony import */ var _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./microbit/microbit-illustration.svg */ "./src/lib/libraries/extensions/microbit/microbit-illustration.svg");
-/* harmony import */ var _microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ev3/ev3.png */ "./src/lib/libraries/extensions/ev3/ev3.png");
-/* harmony import */ var _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_ev3_ev3_png__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ev3/ev3-small.svg */ "./src/lib/libraries/extensions/ev3/ev3-small.svg");
-/* harmony import */ var _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ev3/ev3-hub-illustration.svg */ "./src/lib/libraries/extensions/ev3/ev3-hub-illustration.svg");
-/* harmony import */ var _ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./wedo2/wedo.png */ "./src/lib/libraries/extensions/wedo2/wedo.png");
-/* harmony import */ var _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./wedo2/wedo-small.svg */ "./src/lib/libraries/extensions/wedo2/wedo-small.svg");
-/* harmony import */ var _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./wedo2/wedo-illustration.svg */ "./src/lib/libraries/extensions/wedo2/wedo-illustration.svg");
-/* harmony import */ var _wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var _wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./wedo2/wedo-button-illustration.svg */ "./src/lib/libraries/extensions/wedo2/wedo-button-illustration.svg");
-/* harmony import */ var _wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _additions_additions_png__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./additions/additions.png */ "./src/lib/libraries/extensions/additions/additions.png");
-/* harmony import */ var _additions_additions_png__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_additions_additions_png__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var _boost_boost_png__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./boost/boost.png */ "./src/lib/libraries/extensions/boost/boost.png");
-/* harmony import */ var _boost_boost_png__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_png__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./boost/boost-small.svg */ "./src/lib/libraries/extensions/boost/boost-small.svg");
-/* harmony import */ var _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_26__);
-/* harmony import */ var _boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./boost/boost-illustration.svg */ "./src/lib/libraries/extensions/boost/boost-illustration.svg");
-/* harmony import */ var _boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_27__);
-/* harmony import */ var _boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./boost/boost-button-illustration.svg */ "./src/lib/libraries/extensions/boost/boost-button-illustration.svg");
-/* harmony import */ var _boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_28__);
-/* harmony import */ var _gdxfor_gdxfor_png__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./gdxfor/gdxfor.png */ "./src/lib/libraries/extensions/gdxfor/gdxfor.png");
-/* harmony import */ var _gdxfor_gdxfor_png__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_gdxfor_gdxfor_png__WEBPACK_IMPORTED_MODULE_29__);
-/* harmony import */ var _gdxfor_gdxfor_small_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./gdxfor/gdxfor-small.svg */ "./src/lib/libraries/extensions/gdxfor/gdxfor-small.svg");
-/* harmony import */ var _gdxfor_gdxfor_small_svg__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_gdxfor_gdxfor_small_svg__WEBPACK_IMPORTED_MODULE_30__);
-/* harmony import */ var _gdxfor_gdxfor_illustration_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./gdxfor/gdxfor-illustration.svg */ "./src/lib/libraries/extensions/gdxfor/gdxfor-illustration.svg");
-/* harmony import */ var _gdxfor_gdxfor_illustration_svg__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_gdxfor_gdxfor_illustration_svg__WEBPACK_IMPORTED_MODULE_31__);
-/* harmony import */ var _tw_tw_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./tw/tw.svg */ "./src/lib/libraries/extensions/tw/tw.svg");
-/* harmony import */ var _tw_tw_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_tw_tw_svg__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./custom/custom.svg */ "./src/lib/libraries/extensions/custom/custom.svg");
-/* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_svg__WEBPACK_IMPORTED_MODULE_33__);
-/* harmony import */ var _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./utils/utilites.svg */ "./src/lib/libraries/extensions/utils/utilites.svg");
-/* harmony import */ var _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_utils_utilites_svg__WEBPACK_IMPORTED_MODULE_34__);
-/* harmony import */ var _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./gameutils/gameutils.svg */ "./src/lib/libraries/extensions/gameutils/gameutils.svg");
-/* harmony import */ var _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_35__);
-/* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./cloudlink/cloudlinkThumb.png */ "./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png");
-/* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_36__);
-/* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./js/js.svg */ "./src/lib/libraries/extensions/js/js.svg");
-/* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_js_js_svg__WEBPACK_IMPORTED_MODULE_37__);
-/* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./save/save.svg */ "./src/lib/libraries/extensions/save/save.svg");
-/* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_save_save_svg__WEBPACK_IMPORTED_MODULE_38__);
-/* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./unite/Unite.png */ "./src/lib/libraries/extensions/unite/Unite.png");
-/* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_unite_Unite_png__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _custom_custom_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./custom/custom.png */ "./src/lib/libraries/extensions/custom/custom.png");
+/* harmony import */ var _custom_custom_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _custom_custom_small_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./custom/custom-small.svg */ "./src/lib/libraries/extensions/custom/custom-small.svg");
+/* harmony import */ var _custom_custom_small_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_small_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _music_music_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./music/music.png */ "./src/lib/libraries/extensions/music/music.png");
+/* harmony import */ var _music_music_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_music_music_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _music_music_small_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./music/music-small.svg */ "./src/lib/libraries/extensions/music/music-small.svg");
+/* harmony import */ var _music_music_small_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_music_music_small_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _pen_pen_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pen/pen.png */ "./src/lib/libraries/extensions/pen/pen.png");
+/* harmony import */ var _pen_pen_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pen_pen_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pen/pen-small.svg */ "./src/lib/libraries/extensions/pen/pen-small.svg");
+/* harmony import */ var _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./videoSensing/video-sensing.png */ "./src/lib/libraries/extensions/videoSensing/video-sensing.png");
+/* harmony import */ var _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./videoSensing/video-sensing-small.svg */ "./src/lib/libraries/extensions/videoSensing/video-sensing-small.svg");
+/* harmony import */ var _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./text2speech/text2speech.png */ "./src/lib/libraries/extensions/text2speech/text2speech.png");
+/* harmony import */ var _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./text2speech/text2speech-small.svg */ "./src/lib/libraries/extensions/text2speech/text2speech-small.svg");
+/* harmony import */ var _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _translate_translate_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./translate/translate.png */ "./src/lib/libraries/extensions/translate/translate.png");
+/* harmony import */ var _translate_translate_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_translate_translate_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _translate_translate_small_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./translate/translate-small.png */ "./src/lib/libraries/extensions/translate/translate-small.png");
+/* harmony import */ var _translate_translate_small_png__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_translate_translate_small_png__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./makeymakey/makeymakey.png */ "./src/lib/libraries/extensions/makeymakey/makeymakey.png");
+/* harmony import */ var _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./makeymakey/makeymakey-small.svg */ "./src/lib/libraries/extensions/makeymakey/makeymakey-small.svg");
+/* harmony import */ var _makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./microbit/microbit.png */ "./src/lib/libraries/extensions/microbit/microbit.png");
+/* harmony import */ var _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_microbit_microbit_png__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./microbit/microbit-small.svg */ "./src/lib/libraries/extensions/microbit/microbit-small.svg");
+/* harmony import */ var _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./microbit/microbit-illustration.svg */ "./src/lib/libraries/extensions/microbit/microbit-illustration.svg");
+/* harmony import */ var _microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ev3/ev3.png */ "./src/lib/libraries/extensions/ev3/ev3.png");
+/* harmony import */ var _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_ev3_ev3_png__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./ev3/ev3-small.svg */ "./src/lib/libraries/extensions/ev3/ev3-small.svg");
+/* harmony import */ var _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./ev3/ev3-hub-illustration.svg */ "./src/lib/libraries/extensions/ev3/ev3-hub-illustration.svg");
+/* harmony import */ var _ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./wedo2/wedo.png */ "./src/lib/libraries/extensions/wedo2/wedo.png");
+/* harmony import */ var _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./wedo2/wedo-small.svg */ "./src/lib/libraries/extensions/wedo2/wedo-small.svg");
+/* harmony import */ var _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var _wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./wedo2/wedo-illustration.svg */ "./src/lib/libraries/extensions/wedo2/wedo-illustration.svg");
+/* harmony import */ var _wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_24__);
+/* harmony import */ var _wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./wedo2/wedo-button-illustration.svg */ "./src/lib/libraries/extensions/wedo2/wedo-button-illustration.svg");
+/* harmony import */ var _wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_25__);
+/* harmony import */ var _additions_additions_png__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./additions/additions.png */ "./src/lib/libraries/extensions/additions/additions.png");
+/* harmony import */ var _additions_additions_png__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(_additions_additions_png__WEBPACK_IMPORTED_MODULE_26__);
+/* harmony import */ var _boost_boost_png__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./boost/boost.png */ "./src/lib/libraries/extensions/boost/boost.png");
+/* harmony import */ var _boost_boost_png__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_png__WEBPACK_IMPORTED_MODULE_27__);
+/* harmony import */ var _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./boost/boost-small.svg */ "./src/lib/libraries/extensions/boost/boost-small.svg");
+/* harmony import */ var _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var _boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./boost/boost-illustration.svg */ "./src/lib/libraries/extensions/boost/boost-illustration.svg");
+/* harmony import */ var _boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./boost/boost-button-illustration.svg */ "./src/lib/libraries/extensions/boost/boost-button-illustration.svg");
+/* harmony import */ var _boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_30__);
+/* harmony import */ var _gdxfor_gdxfor_png__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./gdxfor/gdxfor.png */ "./src/lib/libraries/extensions/gdxfor/gdxfor.png");
+/* harmony import */ var _gdxfor_gdxfor_png__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(_gdxfor_gdxfor_png__WEBPACK_IMPORTED_MODULE_31__);
+/* harmony import */ var _gdxfor_gdxfor_small_svg__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./gdxfor/gdxfor-small.svg */ "./src/lib/libraries/extensions/gdxfor/gdxfor-small.svg");
+/* harmony import */ var _gdxfor_gdxfor_small_svg__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(_gdxfor_gdxfor_small_svg__WEBPACK_IMPORTED_MODULE_32__);
+/* harmony import */ var _gdxfor_gdxfor_illustration_svg__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./gdxfor/gdxfor-illustration.svg */ "./src/lib/libraries/extensions/gdxfor/gdxfor-illustration.svg");
+/* harmony import */ var _gdxfor_gdxfor_illustration_svg__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(_gdxfor_gdxfor_illustration_svg__WEBPACK_IMPORTED_MODULE_33__);
+/* harmony import */ var _tw_tw_svg__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./tw/tw.svg */ "./src/lib/libraries/extensions/tw/tw.svg");
+/* harmony import */ var _tw_tw_svg__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_tw_tw_svg__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./custom/custom.svg */ "./src/lib/libraries/extensions/custom/custom.svg");
+/* harmony import */ var _custom_custom_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_custom_custom_svg__WEBPACK_IMPORTED_MODULE_35__);
+/* harmony import */ var _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./utils/utilites.svg */ "./src/lib/libraries/extensions/utils/utilites.svg");
+/* harmony import */ var _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(_utils_utilites_svg__WEBPACK_IMPORTED_MODULE_36__);
+/* harmony import */ var _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./gameutils/gameutils.svg */ "./src/lib/libraries/extensions/gameutils/gameutils.svg");
+/* harmony import */ var _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(_gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_37__);
+/* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./cloudlink/cloudlinkThumb.png */ "./src/lib/libraries/extensions/cloudlink/cloudlinkThumb.png");
+/* harmony import */ var _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(_cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_38__);
+/* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./js/js.svg */ "./src/lib/libraries/extensions/js/js.svg");
+/* harmony import */ var _js_js_svg__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(_js_js_svg__WEBPACK_IMPORTED_MODULE_39__);
+/* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./save/save.svg */ "./src/lib/libraries/extensions/save/save.svg");
+/* harmony import */ var _save_save_svg__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(_save_save_svg__WEBPACK_IMPORTED_MODULE_40__);
+/* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./unite/Unite.png */ "./src/lib/libraries/extensions/unite/Unite.png");
+/* harmony import */ var _unite_Unite_png__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(_unite_Unite_png__WEBPACK_IMPORTED_MODULE_41__);
+
+
 
 
 
@@ -31885,7 +31913,7 @@ __webpack_require__.r(__webpack_exports__);
   }),
   extensionId: 'additions',
   name: 'Additions',
-  iconURL: _additions_additions_png__WEBPACK_IMPORTED_MODULE_24___default.a,
+  iconURL: _additions_additions_png__WEBPACK_IMPORTED_MODULE_26___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "RocketBlocks Additions",
     id: "gui.extension.rocket_additions.description"
@@ -31894,12 +31922,24 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: false
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Choose an extension",
+    id: "gui.extension.custom.name"
+  }),
+  iconURL: _custom_custom_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+  insetIconURL: _custom_custom_small_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "For developers",
+    id: "gui.extension.custom.description"
+  }),
+  featured: true
+}, {
+  name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Music",
     id: "gui.extension.music.name"
   }),
   extensionId: 'music',
-  iconURL: _music_music_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-  insetIconURL: _music_music_small_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+  iconURL: _music_music_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+  insetIconURL: _music_music_small_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Play instruments and drums.",
     id: "gui.extension.music.description"
@@ -31911,8 +31951,8 @@ __webpack_require__.r(__webpack_exports__);
     id: "gui.extension.pen.name"
   }),
   extensionId: 'pen',
-  iconURL: _pen_pen_png__WEBPACK_IMPORTED_MODULE_4___default.a,
-  insetIconURL: _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+  iconURL: _pen_pen_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+  insetIconURL: _pen_pen_small_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Draw with your sprites.",
     id: "gui.extension.pen.description"
@@ -31924,8 +31964,8 @@ __webpack_require__.r(__webpack_exports__);
     id: "gui.extension.videosensing.name"
   }),
   extensionId: 'videoSensing',
-  iconURL: _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_6___default.a,
-  insetIconURL: _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_7___default.a,
+  iconURL: _videoSensing_video_sensing_png__WEBPACK_IMPORTED_MODULE_8___default.a,
+  insetIconURL: _videoSensing_video_sensing_small_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Sense motion with the camera.",
     id: "gui.extension.videosensing.description"
@@ -31938,8 +31978,8 @@ __webpack_require__.r(__webpack_exports__);
   }),
   extensionId: 'text2speech',
   collaborator: 'Amazon Web Services',
-  iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-  insetIconURL: _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
+  iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+  insetIconURL: _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_11___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Make your projects talk.",
     id: "gui.extension.text2speech.description"
@@ -31953,8 +31993,8 @@ __webpack_require__.r(__webpack_exports__);
   }),
   extensionId: 'speech2text',
   collaborator: 'Amazon Web Services',
-  iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-  insetIconURL: _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
+  iconURL: _text2speech_text2speech_png__WEBPACK_IMPORTED_MODULE_10___default.a,
+  insetIconURL: _text2speech_text2speech_small_svg__WEBPACK_IMPORTED_MODULE_11___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Talk to your projects.",
     id: "gui.extension.speech2text.description"
@@ -31969,8 +32009,8 @@ __webpack_require__.r(__webpack_exports__);
   }),
   extensionId: 'translate',
   collaborator: 'Google',
-  iconURL: _translate_translate_png__WEBPACK_IMPORTED_MODULE_10___default.a,
-  insetIconURL: _translate_translate_small_png__WEBPACK_IMPORTED_MODULE_11___default.a,
+  iconURL: _translate_translate_png__WEBPACK_IMPORTED_MODULE_12___default.a,
+  insetIconURL: _translate_translate_small_png__WEBPACK_IMPORTED_MODULE_13___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Translate text into many languages.",
     id: "gui.extension.translate.description"
@@ -31981,8 +32021,8 @@ __webpack_require__.r(__webpack_exports__);
   name: 'Makey Makey',
   extensionId: 'makeymakey',
   collaborator: 'JoyLabz',
-  iconURL: _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_12___default.a,
-  insetIconURL: _makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_13___default.a,
+  iconURL: _makeymakey_makeymakey_png__WEBPACK_IMPORTED_MODULE_14___default.a,
+  insetIconURL: _makeymakey_makeymakey_small_svg__WEBPACK_IMPORTED_MODULE_15___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Make anything into a key.",
     id: "gui.extension.makeymakey.description"
@@ -31992,8 +32032,8 @@ __webpack_require__.r(__webpack_exports__);
   name: 'micro:bit',
   extensionId: 'microbit',
   collaborator: 'micro:bit',
-  iconURL: _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_14___default.a,
-  insetIconURL: _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_15___default.a,
+  iconURL: _microbit_microbit_png__WEBPACK_IMPORTED_MODULE_16___default.a,
+  insetIconURL: _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Connect your projects with the world.",
     id: "gui.extension.microbit.description"
@@ -32004,8 +32044,8 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true,
   launchPeripheralConnectionFlow: true,
   useAutoScan: false,
-  connectionIconURL: _microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
-  connectionSmallIconURL: _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_15___default.a,
+  connectionIconURL: _microbit_microbit_illustration_svg__WEBPACK_IMPORTED_MODULE_18___default.a,
+  connectionSmallIconURL: _microbit_microbit_small_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
   connectingMessage: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Connecting",
     id: "gui.extension.microbit.connectingMessage"
@@ -32015,8 +32055,8 @@ __webpack_require__.r(__webpack_exports__);
   name: 'LEGO MINDSTORMS EV3',
   extensionId: 'ev3',
   collaborator: 'LEGO',
-  iconURL: _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_17___default.a,
-  insetIconURL: _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_18___default.a,
+  iconURL: _ev3_ev3_png__WEBPACK_IMPORTED_MODULE_19___default.a,
+  insetIconURL: _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_20___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Build interactive robots and more.",
     id: "gui.extension.ev3.description"
@@ -32027,8 +32067,8 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true,
   launchPeripheralConnectionFlow: true,
   useAutoScan: false,
-  connectionIconURL: _ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_19___default.a,
-  connectionSmallIconURL: _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_18___default.a,
+  connectionIconURL: _ev3_ev3_hub_illustration_svg__WEBPACK_IMPORTED_MODULE_21___default.a,
+  connectionSmallIconURL: _ev3_ev3_small_svg__WEBPACK_IMPORTED_MODULE_20___default.a,
   connectingMessage: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Connecting. Make sure the pin on your EV3 is set to 1234.",
     id: "gui.extension.ev3.connectingMessage"
@@ -32038,8 +32078,8 @@ __webpack_require__.r(__webpack_exports__);
   name: 'LEGO BOOST',
   extensionId: 'boost',
   collaborator: 'LEGO',
-  iconURL: _boost_boost_png__WEBPACK_IMPORTED_MODULE_25___default.a,
-  insetIconURL: _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_26___default.a,
+  iconURL: _boost_boost_png__WEBPACK_IMPORTED_MODULE_27___default.a,
+  insetIconURL: _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_28___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Bring robotic creations to life.",
     id: "gui.extension.boost.description"
@@ -32050,9 +32090,9 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true,
   launchPeripheralConnectionFlow: true,
   useAutoScan: true,
-  connectionIconURL: _boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_27___default.a,
-  connectionSmallIconURL: _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_26___default.a,
-  connectionTipIconURL: _boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_28___default.a,
+  connectionIconURL: _boost_boost_illustration_svg__WEBPACK_IMPORTED_MODULE_29___default.a,
+  connectionSmallIconURL: _boost_boost_small_svg__WEBPACK_IMPORTED_MODULE_28___default.a,
+  connectionTipIconURL: _boost_boost_button_illustration_svg__WEBPACK_IMPORTED_MODULE_30___default.a,
   connectingMessage: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Connecting",
     id: "gui.extension.boost.connectingMessage"
@@ -32062,8 +32102,8 @@ __webpack_require__.r(__webpack_exports__);
   name: 'LEGO Education WeDo 2.0',
   extensionId: 'wedo2',
   collaborator: 'LEGO',
-  iconURL: _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_20___default.a,
-  insetIconURL: _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_21___default.a,
+  iconURL: _wedo2_wedo_png__WEBPACK_IMPORTED_MODULE_22___default.a,
+  insetIconURL: _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_23___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Build with motors and sensors.",
     id: "gui.extension.wedo2.description"
@@ -32074,9 +32114,9 @@ __webpack_require__.r(__webpack_exports__);
   internetConnectionRequired: true,
   launchPeripheralConnectionFlow: true,
   useAutoScan: true,
-  connectionIconURL: _wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_22___default.a,
-  connectionSmallIconURL: _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_21___default.a,
-  connectionTipIconURL: _wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_23___default.a,
+  connectionIconURL: _wedo2_wedo_illustration_svg__WEBPACK_IMPORTED_MODULE_24___default.a,
+  connectionSmallIconURL: _wedo2_wedo_small_svg__WEBPACK_IMPORTED_MODULE_23___default.a,
+  connectionTipIconURL: _wedo2_wedo_button_illustration_svg__WEBPACK_IMPORTED_MODULE_25___default.a,
   connectingMessage: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Connecting",
     id: "gui.extension.wedo2.connectingMessage"
@@ -32088,7 +32128,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "tw.twExtension.name"
   }),
   extensionId: 'tw',
-  iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_32___default.a,
+  iconURL: _tw_tw_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Weird new blocks. Not compatible with Scratch. Formerly in TurboWarp.",
     id: "tw.twExtension.description"
@@ -32101,7 +32141,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "tw.customExtension.name"
   }),
   extensionId: '',
-  iconURL: _custom_custom_svg__WEBPACK_IMPORTED_MODULE_33___default.a,
+  iconURL: _custom_custom_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Load custom extensions from URLs. For developers. Experimental.",
     id: "tw.customExtension.description"
@@ -32110,7 +32150,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Utilites",
   extensionId: 'utils',
-  iconURL: _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_34___default.a,
+  iconURL: _utils_utilites_svg__WEBPACK_IMPORTED_MODULE_36___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Utilites for Scratch",
     id: "gui.extension.utils.description"
@@ -32121,7 +32161,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "GameUtils",
   extensionId: 'gameutils',
-  iconURL: _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_35___default.a,
+  iconURL: _gameutils_gameutils_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "The Extension that Loads Sprites, costumes, etc.",
     id: "gui.extension.gameutils.description"
@@ -32132,7 +32172,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "CloudLink",
   extensionId: 'cloudlink',
-  iconURL: _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_36___default.a,
+  iconURL: _cloudlink_cloudlinkThumb_png__WEBPACK_IMPORTED_MODULE_38___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "CloudLink: Link to the Cloud",
     id: "gui.extension.cloudlink.description"
@@ -32144,7 +32184,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "JavaScript",
   extensionId: 'js',
-  iconURL: _js_js_svg__WEBPACK_IMPORTED_MODULE_37___default.a,
+  iconURL: _js_js_svg__WEBPACK_IMPORTED_MODULE_39___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "JavaScript with Scratch",
     id: "gui.extension.js.description"
@@ -32155,7 +32195,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Save",
   extensionId: 'save',
-  iconURL: _save_save_svg__WEBPACK_IMPORTED_MODULE_38___default.a,
+  iconURL: _save_save_svg__WEBPACK_IMPORTED_MODULE_40___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Save with Scratch",
     id: "gui.extension.save.description"
@@ -32166,7 +32206,7 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Unite",
   extensionId: 'jwUnite',
-  iconURL: _unite_Unite_png__WEBPACK_IMPORTED_MODULE_39___default.a,
+  iconURL: _unite_Unite_png__WEBPACK_IMPORTED_MODULE_41___default.a,
   description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Blocks that should be in Scratch",
     id: "gui.extension.jwUnite.description"
