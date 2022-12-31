@@ -10199,8 +10199,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _tw_error_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_tw_error_svg__WEBPACK_IMPORTED_MODULE_44__);
 /* harmony import */ var _tw_moon_svg__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./tw-moon.svg */ "./src/components/menu-bar/tw-moon.svg");
 /* harmony import */ var _tw_moon_svg__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_tw_moon_svg__WEBPACK_IMPORTED_MODULE_45__);
-/* harmony import */ var _scratch_logo_svg__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./scratch-logo.svg */ "./src/components/menu-bar/scratch-logo.svg");
-/* harmony import */ var _scratch_logo_svg__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_scratch_logo_svg__WEBPACK_IMPORTED_MODULE_46__);
+/* harmony import */ var _rocket_logo_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./rocket-logo.png */ "./src/components/menu-bar/rocket-logo.png");
+/* harmony import */ var _rocket_logo_png__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_rocket_logo_png__WEBPACK_IMPORTED_MODULE_46__);
 /* harmony import */ var _lib_shared_messages__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ../../lib/shared-messages */ "./src/lib/shared-messages.js");
 /* harmony import */ var _tw_see_inside_jsx__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./tw-see-inside.jsx */ "./src/components/menu-bar/tw-see-inside.jsx");
 
@@ -10532,7 +10532,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.mainMenu
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.fileGroup
-    }, this.props.onClickLogo ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.menuBarItem)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
       alt: "Scratch",
@@ -10542,7 +10542,7 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       draggable: false,
       src: this.props.logo,
       onClick: this.props.onClickLogo
-    })) : null, this.props.canChangeLanguage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+    })), this.props.canChangeLanguage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.menuBarItem, _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.hoverable, _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.languageMenu)
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.languageIcon,
@@ -10921,7 +10921,7 @@ MenuBar.propTypes = {
   vm: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.instanceOf(scratch_vm__WEBPACK_IMPORTED_MODULE_8___default.a).isRequired
 };
 MenuBar.defaultProps = {
-  logo: _scratch_logo_svg__WEBPACK_IMPORTED_MODULE_46___default.a,
+  logo: _rocket_logo_png__WEBPACK_IMPORTED_MODULE_46___default.a,
   onShare: () => {}
 };
 const mapStateToProps = (state, ownProps) => {
@@ -11087,6 +11087,17 @@ const mapDispatchToProps = dispatch => ({
 
 /***/ }),
 
+/***/ "./src/components/menu-bar/rocket-logo.png":
+/*!*************************************************!*\
+  !*** ./src/components/menu-bar/rocket-logo.png ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/430f222c31bfe049d8e33061ba2dd8c2.png";
+
+/***/ }),
+
 /***/ "./src/components/menu-bar/save-status.css":
 /*!*************************************************!*\
   !*** ./src/components/menu-bar/save-status.css ***!
@@ -11114,17 +11125,6 @@ var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addS
 if(content.locals) module.exports = content.locals;
 
 if(false) {}
-
-/***/ }),
-
-/***/ "./src/components/menu-bar/scratch-logo.svg":
-/*!**************************************************!*\
-  !*** ./src/components/menu-bar/scratch-logo.svg ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/assets/8bcd9c00e30a0af9d832735651fd9643.svg";
 
 /***/ }),
 
