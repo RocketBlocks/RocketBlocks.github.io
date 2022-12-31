@@ -82,7 +82,7 @@ import aboutIcon from './icon--about.svg';
 import errorIcon from './tw-error.svg';
 import themeIcon from './tw-moon.svg';
 
-import scratchLogo from './scratch-logo.svg';
+import scratchLogo from './rocket-logo.png';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -436,7 +436,6 @@ class MenuBar extends React.Component {
             >
                 <div className={styles.mainMenu}>
                     <div className={styles.fileGroup}>
-                        {this.props.onClickLogo ? (
                             <div className={classNames(styles.menuBarItem)}>
                                 <img
                                     alt="Scratch"
@@ -448,7 +447,6 @@ class MenuBar extends React.Component {
                                     onClick={this.props.onClickLogo}
                                 />
                             </div>
-                        ) : null}
                         {(this.props.canChangeLanguage) && (<div
                             className={classNames(styles.menuBarItem, styles.hoverable, styles.languageMenu)}
                         >
